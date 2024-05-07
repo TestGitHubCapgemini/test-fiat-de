@@ -4,7 +4,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Topolino DE PP</title>
+  <title>Topolino DE Kang</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     /* Estilos personalizados */
@@ -322,10 +322,10 @@ var initESW = function(gslbBaseURL) {
     embedded_svc.menu.settings.language = 'de'; //For example, enter 'en' or 'en-US'
 	
 		embedded_svc.menu.init(
-			'https://psa-customerfirst--preprod.sandbox.my.salesforce.com',
-			'https://d.la1-c1cs-fra.salesforceliveagent.com/chat',
+			'https://psa-customerfirst--kang.sandbox.my.salesforce.com',
+			'https://d.la1-c1cs-ar3.salesforceliveagent.com/chat',
 			gslbBaseURL,
-			'00D1x000000KYSu',
+			'00D3L00000011rz',
 			'DE_Fiat_Topolino'
 		);
 };
@@ -348,7 +348,7 @@ if (isMobileDevice) {} else {
 
 if (!window.embedded_svc || !window.embedded_svc.menu) {
     var s = document.createElement('script');
-	s.setAttribute('src', 'https://psa-customerfirst--preprod.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
+	s.setAttribute('src', 'https://psa-customerfirst--kang.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
     s.onload = function() {
         initESW(null);
     };
